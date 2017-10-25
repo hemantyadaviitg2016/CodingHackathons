@@ -29,13 +29,14 @@ int main()
 {
 	int t;
 	scanf("%d",&t);
-	for(int i=0;i<t;i++)
+	int i;
+	for(i=0;i<t;i++)
 	{
 		long long int n,k;
 		long long int maxLR, minLR;
 		scanf("%Ld%Ld",&n,&k);
 		findk(n,k,&minLR,&maxLR);
-		printf("%Ld %Ld\n",maxLR,minLR );
+		printf("#Case %d:\t%Ld %Ld\n",i+1,maxLR,minLR );
 	}
 
 	
